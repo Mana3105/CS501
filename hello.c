@@ -1,1 +1,1 @@
-git remote add origiadfasdasgit n https://github.com/Mana3105/CS501.gitgitgit init
+git remote add origiadfasdasgit n https://github.com/Mana3105/CS501.gitgitgit initdasdasd
