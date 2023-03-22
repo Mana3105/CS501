@@ -1,0 +1,1 @@
+git remote add origin https://github.com/Mana3105/CS501.git
