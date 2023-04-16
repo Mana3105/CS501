@@ -1,20 +1,30 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <cs50.h>
 
-int main(void)
 
-{
-    int numbers[] = {20, 50, 10, 5};
+int main(void); { 
 
-    int n = get_int("Number: ");
-    for (int i = 0; i < 4: i++)     
+    int n;
+    do
     {
-        if(numbers[i] == n)
+        n = get_int("Ingrese un número entre 1 y 8: ");
+    }
+    while (n < 1 || n > 8);
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
         {
-            printf("Found\n");
-            return 0;
+            printf(" ");
         }
-    } 
-    printf("Not Found\n")   
-    return 1;
+
+        for (int j = 0; j < i + 1; j++)
+        {
+            printf("#");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
 }
