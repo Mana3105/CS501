@@ -37,7 +37,7 @@ const char* get_card_type(const char* card_number) {
     } else if ((length == 13 || length == 16) && strncmp(card_number, "4", 1) == 0) {
         return "Visa";
     } else {
-        return "Unknown";
+        return "Desconocido";
     }
 }
 
